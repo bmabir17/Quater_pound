@@ -1,0 +1,48 @@
+<head>
+  <title>Quater Pound Burger</title>
+</head>
+
+<body >
+  
+</body>
+
+<template name="start" >
+  <h2>Your Personal Burger Joint</h2>
+  <a href="/choice">Lets Start </a>
+</template>
+
+<template name="choice">
+  <h2>Choose Your Path for the Journey to the Land of Epic Burgers</h2>
+  <a href="/custom">Make Your Own Custom Burger</a>
+  <a href="/special">Our Chef's Special</a>
+  <a href="/">Return to Home</a>
+</template>
+<template name="special">
+  <h2>Our Chef's Special</h2>
+</template>
+
+<template name="custom">
+  <h2>Choose Your Bun</h2>
+  <form>
+    <input type="radio" name="BunSelect" value="RegularBun">Regular Bun
+    <input type="radio" name="BunSelect" value="DryBun">Dry Bun
+    <input type="radio" name="BunSelect" value="CheesyBun">Cheesy Bun
+    <input type="submit" name="Next: Choose My Patty">
+  </form>
+</template>
+
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+  </ul>
+</template>
