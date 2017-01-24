@@ -3,7 +3,7 @@ Router.configure({
 	layoutTemplate: 'mainNav'
 });
 
-Router.route('/',function(){
+Router.route('/start',function(){
 	this.render('start');
 });
 Router.route('/choice',function(){

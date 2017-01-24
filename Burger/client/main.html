@@ -3,16 +3,16 @@
 </head>
 
 <body >
-  
+  {{> mainNav }}
 </body>
 
 <template name="start" >
-  <h2>Your Personal Burger Joint</h2>
-  <a href="/choice">Lets Start </a>
+  <h2 style="color:#FFFF">Your Personal Burger Joint</h2>
+  <a id="startLink" href="/choice" style="width:contain;height:contain;border:0;" > </a>
 </template>
 
 <template name="choice">
-  <h2>Choose Your Path for the Journey to the Land of Epic Burgers</h2>
+  <h2 style="color:#FFFF">Choose Your Path for the Journey to the Land of Epic Burgers</h2>
   <a href="/custom">Make Your Own Custom Burger</a>
   <a href="/special">Our Chef's Special</a>
   <a href="/">Return to Home</a>
@@ -24,10 +24,10 @@
 <template name="custom">
   <h2>Choose Your Bun</h2>
   <form>
-    <input type="radio" name="BunSelect" value="RegularBun">Regular Bun
-    <input type="radio" name="BunSelect" value="DryBun">Dry Bun
-    <input type="radio" name="BunSelect" value="CheesyBun">Cheesy Bun
-    <input type="submit" name="Next: Choose My Patty">
+    <input type="radio" name="BunSelect" value=" RegularBun">Regular Bun
+    <input type="radio" name="BunSelect" value=" DryBun">Dry Bun
+    <input type="radio" name="BunSelect" value=" CheesyBun">Cheesy Bun
+    <input type="submit" name=" Next: Choose My Patty">
   </form>
 </template>
 
